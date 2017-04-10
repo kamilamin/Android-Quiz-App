@@ -21,7 +21,7 @@ public class MainActivity3 extends AppCompatActivity {
         RadioButton R12 = (RadioButton) findViewById(R.id.radioButton12);
 
         if(R9.isChecked()){
-            Global.score3 = Global.score3 + 10;
+            Global.score3 += 10;
         } else if(R10.isChecked()){
             Global.score3 = 0;
         } else if(R11.isChecked()){

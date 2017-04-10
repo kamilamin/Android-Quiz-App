@@ -24,7 +24,7 @@ public class MainActivity2 extends AppCompatActivity {
         }else if(R6.isChecked()) {
             Global.score2 = 0;
         } else if(R7.isChecked()){
-            Global.score2 = Global.score2 +10;
+            Global.score2 += 10;
         } else if(R8.isChecked()){
             Global.score2 = 0;
         }

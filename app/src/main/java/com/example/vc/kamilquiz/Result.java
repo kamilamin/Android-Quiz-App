@@ -15,6 +15,7 @@ public class Result extends AppCompatActivity {
 
     public void onClick(View v){
         EditText ET = (EditText) findViewById(R.id.editText);
-        ET.setText("score is: " + Global.result);
+        Global.result = (Global.score1 + Global.score2 + Global.score3 + Global.score4);
+        ET.setText("score is: " + (Integer.toString(Global.result)));
     }
 }

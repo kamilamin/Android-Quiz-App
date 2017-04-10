@@ -24,7 +24,7 @@ public class MainActivity4 extends AppCompatActivity {
         } else if(R14.isChecked()){
             Global.score4 = 0;
         } else if(R15.isChecked()){
-            Global.score4 = 0;
+            Global.score4 += 10;
         } else if(R16.isChecked()){
             Global.score4 = 0;
         }

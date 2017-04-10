@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         } else if(R3.isChecked()){
             Global.score1 = 0;
         } else if(R4.isChecked()){
-            Global.score1 = Global.score1 + 10;
+            Global.score1 += 10;
         }
 
         Intent intent = new Intent(MainActivity.this, MainActivity2.class);
